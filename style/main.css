@@ -1,0 +1,126 @@
+:root{
+    font-family: 'Onest', sans-serif;
+}
+
+
+.header-empty{
+    background-color: #E8EFF5;
+    height: 171px;
+    width: 1920px;
+
+}
+
+.logo{
+    left: 15.62%;
+    right: 74.48%;
+    top: 18.71%;
+    bottom: 18.71%;
+    height: 107px;
+    width: 190px;
+    left: 300px;
+    top: 32px;
+}
+
+.top{
+    margin: 32px 300px 115px 558px;
+}
+
+ul {
+    display: flex;
+    font-family: 'Onest';
+    list-style: none;
+    justify-content: space-between;
+}
+
+.head_text{
+    text-decoration: none;
+    color: #0E192E;
+    font-size: 16px;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-areas: "a b c" "d e f" "g h i";
+    grid-gap: 24px;
+}
+
+.grid-item{
+    background-color: #E8EFF5;
+    padding: 36px 32px 32px 32px;
+    height: 420px;
+    width: 424px; 
+}
+
+.grid img{
+    height: 100px;
+    width: 100px;
+}
+
+.grid-one{
+    grid-area: a;
+}
+
+.grid-two{
+    grid-area: b;
+}
+
+.grid-three{
+    grid-area: c;
+}
+
+.grid-four{
+    grid-area: d;
+}
+
+.grid-five{
+    grid-area: e;
+}
+
+.grid-six{
+    grid-area: f;
+}
+
+.grid-seven{
+    grid-area: g;
+}
+
+.grid-eight{
+    grid-area: h;
+}
+
+.grid-nine{
+    grid-area: i;
+}
+
+.text_border{
+    height: 228px;
+    width: 360px;
+}
+
+.grid_text{
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 5px; 
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #0E192E;
+}
+
+.grid_text:hover{
+    color: #2A79CC;
+}
+
+.grid_podzagolovok{
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #0E192E;
+}
